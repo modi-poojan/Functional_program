@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Distance {
 
+	public static void main(String[] args) {
+		Distance obj = new Distance();
+		obj.distance();
+	}
 	public void distance() {
 		Scanner scan = new Scanner(System.in);
 		
