@@ -3,6 +3,11 @@ package com.functional_program;
 import java.util.Scanner;
 
 public class WindChill {
+	
+	public static void main(String[] args) {
+		WindChill obj = new WindChill();
+		obj.solution();
+	}
 
 	public void solution() {
 		Scanner scan = new Scanner(System.in);
