@@ -2,8 +2,13 @@ package com.functional_program;
 
 import java.util.Scanner;
 
-public class Quadratic {
-
+public class Quadratic {	
+	
+	public static void main(String[] args) {
+		Quadratic obj = new Quadratic();
+		obj.quadratic();
+	}
+	
 	public void quadratic() {
 		Scanner scan = new Scanner(System.in);
 		
