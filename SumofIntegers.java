@@ -3,6 +3,11 @@ package com.functional_program;
 import java.util.Scanner;
 
 public class SumofIntegers {
+	public static void main(String[] args) {
+		SumofIntegers obj =new SumofIntegers();
+		obj.integer();
+	
+	}
 	
 	public void integer() {
 	Scanner scan = new Scanner(System.in);
